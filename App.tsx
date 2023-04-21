@@ -8,8 +8,8 @@ import {
   View,
   TouchableOpacity,
 } from 'react-native';
-import Task from './taskModel';
-import {TaskProvider, useTasks} from './taskContex';
+import Task from './models/taskModel';
+import {TaskProvider, useTasks} from './context/taskContex';
 
 interface TaskItem {
   item: Task;

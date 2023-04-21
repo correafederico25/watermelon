@@ -1,8 +1,8 @@
 import {Database} from '@nozbe/watermelondb';
 import SQLiteAdapter from '@nozbe/watermelondb/adapters/sqlite';
 
-import schema from './schema';
-import Task from './taskModel';
+import schema from '../schemas';
+import Task from '../models/taskModel';
 
 const adapter = new SQLiteAdapter({
   dbName: 'MyDatabase',

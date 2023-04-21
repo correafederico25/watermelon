@@ -1,8 +1,8 @@
 // TaskContext.tsx
 import React, {createContext, useContext} from 'react';
 import withObservables from '@nozbe/with-observables';
-import {database} from './database';
-import Task from './taskModel';
+import {database} from '../database';
+import Task from '../models/taskModel';
 
 interface TaskContextData {
   tasks: Task[];
